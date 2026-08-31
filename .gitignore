@@ -1,0 +1,11 @@
+# Сборка (генерируется CMake/vcpkg заново на любой машине)
+build/
+
+# Временная папка распаковки MSI/wintun при подготовке openvpn/ — не нужна
+# в репозитории, бинарники уже лежат в openvpn/
+vendor_extract/
+
+# Windows / IDE
+*.user
+.vs/
+.claude/
